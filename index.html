@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>Survey Form</h3>
+    <div class="fieldset">
+    <fieldset>
+        <legend>Let us know how we can improve freeCodeCamp</legend>
+        <form>
+           <div>
+               <div class="details">
+                  <div class="label"> <label for="name">*Name:</label> </div>
+                   <div class="input">
+                    <input  type="text" name="name" placeholder="Enter your name" required><br>
+                   </div>
+                </div>
+                <div class="details">
+                    <div class="label"><label for="email">*Email:</label></div>
+                    <div class="input">
+                    <input type="email" name="email" placeholder="Enter your Email" required><br>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="label" ><label for="age">*Age:</label></div>
+                    <div class="input">
+                    <input type="age" name="age" placeholder="Age" required><br>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="label" id="label"><label for="role">Which option best describes your current<br> role?</label></div>
+                    <div class="input">
+                        <select  id="role">
+                            <option value="student">Student</option>
+                            <option value="employee">Employee</option>
+                        </select><br>
+                    </div>
+                </div>
+                <div class="radio1">
+                    <div class="radio"  ><label for="infos">*How likely is that you would recommend <br>freeCodecamp to a friend?</label></div>
+                    <div class="options">
+                        <input type="radio" name="info" id="definitely"><label for="info">Definitely</label><br>
+                        <input type="radio" name="info" id="maybe"><label for="info">Maybe</label><br>
+                        <input type="radio" name="info" id="notsure"><label for="info">Not sure</label><br>
+                    </div>
+                </div>
+                <div class="details">
+                  <div class="label" id="label"><label for="like">What do you like more in FCC:</label></div>
+                    <div class="input">
+                      <select id="like" >
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="web">Web Development</option>
+                        <option value="code">Competetive Coding</option>
+                      </select><br>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="label" id="label"><label for="improve">Things that should be improved in the future<br>(Check all that apply):</label></div>
+                    <div class="input">
+                         <input type="checkbox" name="op" id="end" value="oop"><label for="end">Front-end</label><br>
+                         <input type="checkbox" name="op" id="bend" value="oop"><label for="bend">Back-end</label><br>
+                         <input type="checkbox" name="op" id="dv" value="oop"><label for="dv">Data Visualization</label><br>
+                         <input type="checkbox" name="op" id="ch" value="oop"><label for="ch">Challenges</label><br>
+                         <input type="checkbox" name="op" id="os" value="oop"><label for="os">Open Source Community</label><br>
+                         <input type="checkbox" name="op" id="gh" value="oop"><label for="gh">Gitter help rooms</label><br>
+                         <input type="checkbox" name="op" id="v" value="oop"><label for="v">Videos</label><br>
+                         <input type="checkbox" name="op" id="cm" value="oop"><label for="cm">City Meetups</label><br>
+                         <input type="checkbox" name="op" id="w" value="oop"><label for="w">Wiki</label><br>
+                         <input type="checkbox" name="op" id="f" value="oop"><label for="f">Forum</label><br>
+                         <input type="checkbox" name="op" id="ac" value="oop"><label for="ac">Additional Courses</label><br>
+                    </div>
+                </div>
+                <div class="details">
+                  <div class="label" id="label"><label for="hint">Any comments or suggestions?</label></div>
+                  <div class="input" >
+                    <textarea name="" id="text" cols="30" rows="-10">Enter your comment here...</textarea>
+                  </div>
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>       
+            </div>
+        </form>
+    </fieldset>
+    </div>    
+</body>
+</html>
